@@ -1,0 +1,91 @@
+.body{    /*Ici j'appel le fond du site en soit : un dégradé*/
+  background: linear-gradient(45deg, #d5a452 60%, #deac4a);
+}
+
+.IMG_Portrait{ 
+  color:rgba(0, 0, 0, 1); /*On applique une couleur spécifique au texte ici 255 255 255 signifie noir*/
+  width:1000px;     /*longueur de la zone du texte*/
+  height:300px;     /*Largeur de la zone du texte*/
+  position:absolute;    /*Méthode de positionnement de la zone de texte*/
+  background-size: cover;
+  left:0px;        /*Position sur la largeur du site de l'image par rapport au coin gauche du site grâ;ce a la position absolute*/
+  top:50px;       /*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+  margin-left: 10%;
+}
+
+
+
+.Grille_Portrait {		/* Paramètre du titre " Présentation*/
+  display: grid;      /*On crée un emplacement pour une grille*/
+  grid-template-columns: repeat(4, 2fr); /*On définit les colonne et leurs espace*/
+  grid-auto-rows: 300px;  /*On définit leurs séparation*/
+  width: auto;          /*taille auto*/
+  height: auto;         /*taille auto*/
+  position: absolute;   /*Méthode de positonnement*/
+  top: 500px;           /*Position*/
+  left: 20px;           /*Position*/
+  font-family:Roboto;   /*Police utiliser*/
+  font-size: 20px;      /*Taille de la police*/
+  text-align: center;   /*Le texte sera alignée en bas au centre de l'image*/
+  font-style: italic;   /*Texte en italique*/
+}
+.Chambellan {       /*Paramètre du titre " Chambellan*/
+  grid-template-rows: auto;   /*Je laisse faire le placement dans l'ordre de la liste html*/
+}                         /*ect ect ect ect c'est toujours pareille après*/
+.général {
+  grid-template-rows: auto;
+}
+.L_évêque {
+  grid-template-rows: auto;
+}
+.Bonne_soeur {
+  grid-template-rows: auto;
+}
+.Boulanger {
+  grid-template-rows: auto;
+}
+.Agriculteur {
+  grid-template-rows: auto;
+}
+.Mineur {
+  grid-template-rows: auto;
+}
+.Messagers {
+  grid-template-rows: auto;
+}
+.Monstre {
+  grid-template-rows: auto;
+}
+.Voleur {
+  grid-template-rows: auto;
+}
+.Scientifique {
+  grid-template-rows: auto;
+}
+.Boureau {
+  grid-template-rows: auto;
+}
+.Le_fou {
+  grid-template-rows: auto;
+}
+.Docteur {
+  grid-template-rows: auto;
+}
+.Sir {
+  grid-template-rows: auto;
+}
+.Tavernier {
+  grid-template-rows: auto;
+}
+.Barde {
+  grid-template-rows: auto;
+}
+.Chasseur {
+  grid-template-rows: auto;
+}
+.Femme {
+  grid-template-rows: auto;
+}
+.Voyageur_Temporel {
+grid-template-rows: auto;
+}
