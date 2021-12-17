@@ -48,8 +48,8 @@
 	flex: auto;
 }
 #box > .Image_PartI { 				/*Image pour décorer le site*/
-	width:40%;				/*longueur de la zone du texte*/
-	height:40%;				/*Largeur de la zone du texte*/
+	width:500px;				/*longueur de la zone du texte*/
+	height:300px;				/*Largeur de la zone du texte*/
 	content:url(images/illu1.png);	/*Je place l'image sur le site*/
 	position:absolute;		/*Méthode de positionnement de l'image*/
 	left:700px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/	
@@ -66,15 +66,15 @@
 	height:105px;			/*Largeur de la zone du texte*/
 	position:absolute;		/*Méthode de positionnement de la zone de texte*/
 	left:650px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/
-	top:1230px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	top:1250px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
 	font-family:Roboto;		/*Police utiliser */
 	font-size:26px;			/*Taille de la police utilisé*/	
 	text-align:left;		/*Le texte est a droite dans la zone de texte*/
 	flex: auto;
 }
 #box > .Image_PartII { 			/*Image pour décorer le site*/
-	width:40%;				/*Image pour décorer le site*/
-	height:40%;				/*Largeur de la zone du texte*/
+	width:500px;				/*Image pour décorer le site*/
+	height:300px;				/*Largeur de la zone du texte*/
 	content:url(images/illu2.png);	/*Je place l'image sur le site*/
 	position:absolute;		/*Méthode de positionnement de l'image*/
 	left:100px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/	
