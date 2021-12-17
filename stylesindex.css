@@ -1,0 +1,164 @@
+.body{ 						/*Ici j'appel le fond du site en soit : un dégradé*/
+  background: linear-gradient(45deg, #d5a452 60%, #deac4a);
+
+}
+
+.Titreetfond { 				/*Ici j'appel l'image sur lequel vous apparaisez quand vous ouvrez le site avec écrit dessus " ARPE"*/
+	width:100%;  			/*Largeur de l'image*/
+	height:710px;  			/*Longueur de l'image*/
+	position:absolute;		/*Méthode de positionnement de l'image*/
+	top: 0;
+	left: 0;
+	background-image:url(images/image_de_fond_titre_arpe.png); /*Image d'accueil*/
+	background-size: cover;
+	background-repeat: no-repeat; /*On fait en sorte que l'image ne se répète pas*/
+	z-index: 1;
+}
+
+
+.Titre_Présentation {		/* Paramètre du titre " Présentation*/
+	color:rgba(0, 0, 0, 1); /*On applique une couleur spécifique au texte*/
+	width:527px;			/*longueur de la zone du texte*/
+	height:105px;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left:450px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/
+	top:750px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	font-family:Roboto; 	/*Police utiliser */
+	font-size:84px;			/*Taille de la police utilisé*/	
+	text-align:middle;		/*Le texte est centrée dans la zone de texte*/
+}
+
+#box {
+	display: flex;
+	flex: auto;
+	flex-flow: row;
+	flex-grow: 2;
+	justify-content: center;
+}
+#box > .Présentation_PartI {		/*Zone de texte parti 1*/
+  color:rgba(0, 0, 0	, 1); /*On applique une couleur spécifique au texter*/
+  width:527px;			/*longueur de la zone du texte*/
+	height:100px;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left: 75px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/
+	top:950px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	font-family:Roboto;		/*Police utiliser */
+	font-size:26px;			/*Taille de la police utilisé*/	
+	text-align:right;		/*Le texte est a droite dans la zone de texte*/
+	flex: auto;
+}
+#box > .Image_PartI { 				/*Image pour décorer le site*/
+	width:500px;				/*longueur de la zone du texte*/
+	height:300px;				/*Largeur de la zone du texte*/
+	content:url(images/illu1.png);	/*Je place l'image sur le site*/
+	position:absolute;		/*Méthode de positionnement de l'image*/
+	left:700px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/	
+	top:900px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	border-top-left-radius:85px; 		/*Arrondie ên haut a gauche*/
+	border-top-right-radius:85px;		/*Arrondie en haut a droite*/
+	border-bottom-left-radius:85px;		/*Arrondie en bas a gauche*/
+	border-bottom-right-radius:85px;	/*Arrondie en bas a droite*/
+	flex: auto;
+}
+#box > .Présentation_PartII {  	/*Zone de texte parti 2*/
+	color:rgba(0, 0, 0, 1); /*On applique une couleur spécifique au texte*/
+	width:527px;			/*longueur de la zone du texte*/
+	height:105px;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left:650px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/
+	top:1250px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	font-family:Roboto;		/*Police utiliser */
+	font-size:26px;			/*Taille de la police utilisé*/	
+	text-align:left;		/*Le texte est a droite dans la zone de texte*/
+	flex: auto;
+}
+#box > .Image_PartII { 			/*Image pour décorer le site*/
+	width:500px;				/*Image pour décorer le site*/
+	height:300px;				/*Largeur de la zone du texte*/
+	content:url(images/illu2.png);	/*Je place l'image sur le site*/
+	position:absolute;		/*Méthode de positionnement de l'image*/
+	left:100px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/	
+	top:1200px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	border-top-left-radius:85px; 		/*Arrondie ên haut a gauche*/
+	border-top-right-radius:85px;		/*Arrondie en haut a droite*/
+	border-bottom-left-radius:85px;		/*Arrondie en bas a gauche*/
+	border-bottom-right-radius:85px;	/*Arrondie en bas a droite*/
+	flex: auto;
+}
+
+
+
+
+.Lien_Portrait{ 
+	color:rgba(0, 0, 0, 1); /*On applique une couleur spécifique au texte ici 255 255 255 signifie noir*/
+	width:1000px;			/*longueur de la zone du texte*/
+	height:300px;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left:50px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâ;ce a la position absolute*/
+	top:1550px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	margin-left: 5%;		/*Séparation avec le bord gauche pour centrée l'image correctement*/
+}
+
+
+.Téléchargement_lien { 
+	color:rgba(0, 0, 0, 1); /*On applique une couleur spécifique au texte*/
+	width:auto;			/*longueur de la zone du texte*/
+	height:auto;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left:25%;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâ;ce a la position absolute*/
+	top:1950px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	font-family:Roboto; 	/*Police utiliser */
+	font-size:72px;			/*Taille de la police utilisé*/	
+		
+}
+
+
+.Crédit_barbot { 
+	color:rgba(0, 0, 0, 1); /*On applique une couleur spécifique au texte*/
+	width:auto;			/*longueur de la zone du texte*/
+	height:auto;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left:39%;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâ;ce a la position absolute*/
+	top:2104px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	font-family:Roboto; 	/*Police utiliser */
+	font-size:16px;			/*Taille de la police utilisé*/	
+	text-align:center;		/*Le texte est centrée dans la zone de texte*/
+	text-decoration : underline;
+	
+}
+.Contact { 
+	color:rgba(0, 0, 0, 1); /*On applique une couleur spécifique au texte*/
+	width:auto;			/*longueur de la zone du texte*/
+	height:auto;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left:47%;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâ;ce a la position absolute*/
+	top:2120px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	font-family:Roboto; 	/*Police utiliser */
+	font-size:16px;			/*Taille de la police utilisé*/	
+	text-align:center;		/*Le texte est centrée dans la zone de texte*/
+	
+}
+.Patch_note { 
+	color:rgba(0, 0, 0, 1); /*On applique une couleur spécifique au texte*/
+	width:auto;			/*longueur de la zone du texte*/
+	height:auto;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left:52%;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâ;ce a la position absolute*/
+	top:2120px;		/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	font-family:Roboto; 	/*Police utiliser */
+	font-size:16px;			/*Taille de la police utilisé*/	
+	text-align:center;		/*Le texte est centrée dans la zone de texte*/
+	
+}
+.Humour {  	/*Zone de texte parti 2*/
+	color:rgba(255, 255, 255, 0); /*On applique une couleur spécifique au texte*/
+	width:auto;			/*longueur de la zone du texte*/
+	height:auto;			/*Largeur de la zone du texte*/
+	position:absolute;		/*Méthode de positionnement de la zone de texte*/
+	left:1100px;				/*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/
+	top:2130px;				/*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
+	font-family:Roboto;		/*Police utiliser */
+	font-size:4px;			/*Taille de la police utilisé*/	
+	text-align:left;		/*Le texte est a droite dans la zone de texte*/
+}
+
