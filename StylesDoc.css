@@ -24,7 +24,7 @@
   width:330px;      /*longueur de la zone du texte*/
   height:auto;     /*Largeur de la zone du texte*/
   position:absolute;    /*Méthode de positionnement de la zone de texte*/
-  left:875px;       /*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/
+  left:70%;       /*Position sur la largeur du site de l'image par rapport au coin gauche du site grâce a la position absolute*/
   top:20%;       /*Position de l'hauteur l'image par rapport au coin gauche du site grâce a la position absolute*/
   font-family:Roboto;   /*Police utiliser */
   font-size:20px;     /*Taille de la police utilisé*/ 
